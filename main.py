@@ -38,7 +38,7 @@ def main():
     court_keypoints = court_line_detector.predict(video_frames[0])
 
     # Define players
-    player_detections = player_tracker.filter_yolo(player_detections, [1,2])
+    player_detections = player_tracker.choose_and_filter_players(court_keypoints, player_detections)
 
 
     # Initialize mini court
