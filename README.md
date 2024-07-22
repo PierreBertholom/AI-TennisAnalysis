@@ -5,7 +5,7 @@ This project aims to analyze a tennis match from a 24 fps video and measure vari
 
 ## Demonstration
 
-Below are some GIFs demonstrating the output of the AI Tennis Analysis project:
+Below are some gifs demonstrating the outputs of the project:
 
 ![Output Video 1](demo/output_video1.gif)
 ![Output Video 2](demo/output_video2.gif)
